@@ -40,14 +40,14 @@ jobs:
           AQUA_SECRET: ${{ secrets.AQUA_SECRET }}
           GITHUB_TOKEN: ${{ github.token }}
           TRIVY_RUN_AS_PLUGIN: 'aqua'
-
-      """- name: Upload HTML file to artifact
+"""
+      - name: Upload HTML file to artifact
         uses: actions/upload-artifact@v4
         with:
          name: Aqua Image Scan Report
-         path: .github/workflows/code_scan_results.html"""
+         path: .github/workflows/code_scan_results.html
          
-  """CI-Build:
+  CI-Build:
     needs: CI-Code
     runs-on: ubuntu-22.04
       
@@ -156,7 +156,9 @@ jobs:
           export IMAGE_CONTAINER="docker.io/$DOCKER_REPOSITORY/$IMAGE_NAME:$IMAGE_TAG"
           sed -e "s#{{ IMAGE_CONTAINER }}#$IMAGE_CONTAINER#g" "./manifests/dev/deployment.yaml" |
           kubectl apply -f -
-          kubectl apply -f ./manifests/dev/service.yaml"""
+          kubectl apply -f ./manifests/dev/service.yaml
+
+"""
             
 #https://nicwortel.nl/blog/2022/continuous-deployment-to-kubernetes-with-github-actions
 #https://nicwortel.nl/blog/2020/simple-kubernetes-deployment-versioning
