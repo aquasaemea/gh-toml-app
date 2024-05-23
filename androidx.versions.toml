@@ -1,0 +1,67 @@
+[versions]
+activity = "1.7.2"
+annotation = "1.7.0"
+appCompat = "1.6.1"
+archCore = "2.1.0"
+constraintLayout = "2.1.4"
+constraintLayoutCore = "1.0.4"
+core = "1.12.0"
+drawer = "1.1.1"
+espresso = "3.4.0"
+fragment = "1.5.7"
+junit = "1.1.5"
+lifecycle = "2.7.0"
+lifecycleExtensions = "2.2.0"
+material = "1.8.0"
+navigation = "2.5.3"
+preference = "1.2.0"
+recyclerView = "1.2.1"
+test = "1.4.0"
+transition = "1.4.1"
+uiAutomator = "2.2.0"
+viewpager2 = "1.0.0"
+window = "1.0.0"
+
+[libraries]
+activity = { module = "androidx.activity:activity", version.ref = "activity" }
+activityKtx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
+appCompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
+appCompatResources = { module = "androidx.appcompat:appcompat-resources", version.ref = "appCompat" }
+archCoreTesting = { module = "androidx.arch.core:core-testing", version.ref = "archCore" }
+constraintLayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintLayout" }
+core = { module = "androidx.core:core", version.ref = "core" }
+coreKtx = { module = "androidx.core:core-ktx", version.ref = "core" }
+drawerLayout = { module = "androidx.drawerlayout:drawerlayout", version.ref = "drawer" }
+espressoCore = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso" }
+espressoContrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "espresso" }
+espressoIdlingResources = { module = "androidx.test.espresso:espresso-idling-resource", version.ref = "espresso" }
+espressoIntents = { module = "androidx.test.espresso:espresso-intents", version.ref = "espresso" }
+junit = { module = "androidx.test.ext:junit", version.ref = "junit" }
+junitKtx = { module = "androidx.test.ext:junit-ktx", version.ref = "junit" }
+fragment = { module = "androidx.fragment:fragment", version.ref = "fragment" }
+fragmentKtx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
+fragmentTesting = { module = "androidx.fragment:fragment-testing", version.ref = "fragment" }
+lifecycleLivedata = { module = "androidx.lifecycle:lifecycle-livedata", version.ref = "lifecycle" }
+lifecycleLivedataKtx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+lifecycleProcess = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycle" }
+lifecycleRuntime = { module = "androidx.lifecycle:lifecycle-runtime", version.ref = "lifecycle" }
+lifecycleRuntimeKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lifecycleService = { module = "androidx.lifecycle:lifecycle-service", version.ref = "lifecycle" }
+lifecycleViewModel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycle" }
+lifecycleViewModelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycleViewModelSavedState = { module = "androidx.lifecycle:lifecycle-viewmodel-savedstate", version.ref = "lifecycle" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+navigationFragmentKtx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation"}
+navigationUiKtx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation"}
+navigationTesting = { module = "androidx.navigation:navigation-testing", version.ref = "navigation"}
+orchestrator = { module = "androidx.test:orchestrator", version.ref = "test" }
+preference = { module = "androidx.preference:preference", version.ref = "preference" }
+recyclerView = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerView" }
+testCore = { module = "androidx.test:core", version.ref = "test" }
+testRunner = { module = "androidx.test:runner", version.ref = "test" }
+testRules = { module = "androidx.test:rules", version.ref = "test" }
+transition = { module = "androidx.transition:transition", version.ref = "transition" }
+uiAutomator = { module = "androidx.test.uiautomator:uiautomator", version.ref = "uiAutomator" }
+viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+window = { module = "androidx.window:window", version.ref = "window" }

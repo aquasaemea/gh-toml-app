@@ -1,0 +1,109 @@
+[versions]
+coreBom = "97.8.2"
+copyrightPlugin = "2.3.1"
+dcas = "3.6.0"
+emulatorsPlugin = "8.0.1"
+environmentPlugin = "3.1.0"
+navappGradlePlugins = "0.5.0"
+evDataService = "0.0.63"
+kmpResources = "2.3.0"
+michi = "20240517.110743"
+navcl = "20240517.085651"
+navTest = "28.0.2"
+nik = "0.43-15.188.1"
+pmfTools = "1.0.6"
+sensorisGenerator = "1.0.61"
+controlIcons = "0.0.106"
+tools = "0.0.857"
+ttspNavApp = "3.0.0"
+worldMap = "45251"
+
+[libraries]
+# NavKit1
+iconAssets2 = { module = "com.tomtom.navkit.android:IconAssets2" }
+michi = { module = "com.tomtom.michi.android:libTomTomNavKitMapSdk", version.ref = "michi" }
+navcl = { module = "com.tomtom.navcl.android:TomTomNavKitNavCLSdk", version.ref = "navcl" }
+nik = { module = "com.tomtom.navapp.android:nik", version.ref = "nik" }
+sensorisGenerator = { module = "com.tomtom.navkit.android:analytics-sensoris-generator", version.ref = "sensorisGenerator" }
+ttspNavApp = { module = "com.tomtom.navapp.android:ttsp-navapp", version.ref = "ttspNavApp" }
+
+# Tools
+coreTheme = { module = "com.tomtom.tools.android:core_theme", version.ref = "tools" }
+coreUtil = { module = "com.tomtom.tools.android:core_util", version.ref = "tools" }
+dataBinding = { module = "com.tomtom.tools.android:api_databinding", version.ref = "tools" }
+stockTheme = { module = "com.tomtom.tools.android:stock_theme", version.ref = "tools" }
+quantity = { module = "com.tomtom.tools.android:api_quantity", version.ref = "tools" }
+uiControls = { module = "com.tomtom.tools.android:api_uicontrols", version.ref = "tools" }
+liveData = { module = "com.tomtom.tools.android:api_livedata", version.ref = "tools" }
+resourceResolution = { module = "com.tomtom.tools.android:api_resourceresolution", version.ref = "tools" }
+viewComparison = { module = "com.tomtom.tools.android:testing_viewcomparison", version.ref = "tools" }
+graphics = { module = "com.tomtom.tools.android:api_graphics", version.ref = "tools" }
+toolsGradlePlugins = { module = "com.tomtom.tools.android:gradle-plugins", version.ref = "tools" }
+testingFunctional = { module = "com.tomtom.tools.android:testing_functional", version.ref = "tools" }
+
+# IconsLib UI Controls
+uiControlsAdjusting = { module = "com.tomtom.icons.android:uiControls_adjusting", version.ref = "controlIcons"}
+uiControlsCharging = { module = "com.tomtom.icons.android:mapsAndRouting_charging", version.ref = "controlIcons"}
+uiControlsCloudAndSyncying = { module = "com.tomtom.icons.android:uiControls_cloudAndSyncing", version.ref = "controlIcons"}
+uiControlsCommonActions = { module = "com.tomtom.icons.android:uiControls_commonActions", version.ref = "controlIcons"}
+uiControlsCommunication = { module = "com.tomtom.icons.android:uiControls_communication", version.ref = "controlIcons"}
+uiControlsDevice = { module = "com.tomtom.icons.android:uiControls_device", version.ref = "controlIcons"}
+uiControlsFlags = { module = "com.tomtom.icons.android:mapsAndRouting_flags", version.ref = "controlIcons"}
+uiControlsLegalRestrictions = { module = "com.tomtom.icons.android:restrictionWarnings_legalRestrictions", version.ref = "controlIcons"}
+uiControlsMapRelated = { module = "com.tomtom.icons.android:mapsAndRouting_mapRelated", version.ref = "controlIcons"}
+uiControlsMedia = { module = "com.tomtom.icons.android:uiControls_media", version.ref = "controlIcons"}
+uiControlsMiscellaneous = { module = "com.tomtom.icons.android:uiControls_miscellaneous", version.ref = "controlIcons"}
+uiControlsPayments = { module = "com.tomtom.icons.android:uiControls_payments", version.ref = "controlIcons"}
+uiControlsPoiAccomodation = { module = "com.tomtom.icons.android:pois_ui_accommodation", version.ref = "controlIcons"}
+uiControlsPoiCar = { module = "com.tomtom.icons.android:pois_ui_car", version.ref = "controlIcons"}
+uiControlsPoiCommercial = { module = "com.tomtom.icons.android:pois_ui_commercial", version.ref = "controlIcons"}
+uiControlsPoiEducation = { module = "com.tomtom.icons.android:pois_ui_education", version.ref = "controlIcons"}
+uiControlsPoiEntertainment = { module = "com.tomtom.icons.android:pois_ui_entertainment", version.ref = "controlIcons"}
+uiControlsPoiFoodAndDrink = { module = "com.tomtom.icons.android:pois_ui_foodAndDrink", version.ref = "controlIcons"}
+uiControlsPoiGeneral = { module = "com.tomtom.icons.android:pois_ui_general", version.ref = "controlIcons"}
+uiControlsPoiHealth = { module = "com.tomtom.icons.android:pois_ui_health", version.ref = "controlIcons"}
+uiControlsPoiParking = { module = "com.tomtom.icons.android:pois_ui_parking", version.ref = "controlIcons"}
+uiControlsPoiPublic = { module = "com.tomtom.icons.android:pois_ui_public", version.ref = "controlIcons"}
+uiControlsPoiOutdoors = { module = "com.tomtom.icons.android:pois_ui_outdoors", version.ref = "controlIcons"}
+uiControlsPoiTransport = { module = "com.tomtom.icons.android:pois_ui_transport", version.ref = "controlIcons"}
+uiControlsPrivacyAndSecurity = { module = "com.tomtom.icons.android:uiControls_privacyAndSecurity", version.ref = "controlIcons"}
+uiControlsReporting = { module = "com.tomtom.icons.android:mapsAndRouting_reporting", version.ref = "controlIcons"}
+uiControlsRouting = { module = "com.tomtom.icons.android:mapsAndRouting_routing", version.ref = "controlIcons"}
+uiControlsSearch = { module = "com.tomtom.icons.android:uiControls_search", version.ref = "controlIcons"}
+uiControlsUpcomingEvent = { module = "com.tomtom.icons.android:mapsAndRouting_upcomingEventsPanel", version.ref = "controlIcons"}
+uiControlsVehicles = { module = "com.tomtom.icons.android:uiControls_vehicles", version.ref = "controlIcons"}
+uiControlsWeatherUi = { module = "com.tomtom.icons.android:weather_weatherUi", version.ref = "controlIcons"}
+uiControlsWeatherStatus = { module = "com.tomtom.icons.android:weather_weatherStatus", version.ref = "controlIcons"}
+uiControlsWhat3Words = { module = "com.tomtom.icons.android:brandedAssets_what3words", version.ref = "controlIcons"}
+
+# NavTest
+navTestAndroid = { module ="com.tomtom.navtest:navtest-android", version.ref = "navTest" }
+navTestCore = { module ="com.tomtom.navtest:navtest-core", version.ref = "navTest" }
+navTestCommon = { module ="com.tomtom.navtest:navtest-common", version.ref = "navTest" }
+navTestCucumber = { module ="com.tomtom.navtest:navtest-cucumber", version.ref = "navTest" }
+navTestDetekt = { module ="com.tomtom.navtest:navtest-detekt", version.ref = "navTest" }
+navTestKtlint = { module ="com.tomtom.navtest:navtest-ktlint", version.ref = "navTest" }
+navTestLint = { module ="com.tomtom.navtest:navtest-lint", version.ref = "navTest" }
+navTestQuarantine = { module ="com.tomtom.navtest:navtest-quarantine-lib", version.ref = "navTest" }
+
+# DCAS
+dcasLibrary = { module = "com.tomtom.dcas:dcas-library", version.ref = "dcas" }
+dcasClientCore = { module = "com.tomtom.dcas:dcas-client-core", version.ref = "dcas" }
+dcasClientStorageAndroid = { module = "com.tomtom.dcas:dcas-client-storage-android", version.ref = "dcas" }
+dcasComKit = { module = "com.tomtom.dcas:dcas-client-comkit-android", version.ref = "dcas" }
+
+kmpResources = { module = "com.tomtom:kmp-resources-lib", version.ref = "kmpResources" }
+
+copyrightPlugin = { module = "com.tomtom.navapp:copyright-plugin", version.ref = "copyrightPlugin" }
+emulatorsPlugin = { module = "com.tomtom.navapp:emulators-plugin", version.ref = "emulatorsPlugin" }
+environmentPlugin = { module = "com.tomtom.navapp:environment-plugin", version.ref = "environmentPlugin" }
+kmpResourcesPlugin = { module = "com.tomtom:kmp-resources-plugin", version.ref = "kmpResources" }
+navappGradlePlugins = { module = "com.tomtom.navapp.gradle:navapp-gradle-plugins", version.ref = "navappGradlePlugins" }
+worldMap = { module = "com.tomtom.navapp.android:world-map", version.ref = "worldMap" }
+testWorldMap = { module = "com.tomtom.navapp.android:testWorldMap", version.ref = "worldMap" }
+
+# EVDataService
+evDataService = { module = "com.tomtom:ev-data-service", version.ref = "evDataService" }
+
+[plugins]
+navTest = { id = "com.tomtom.navtest", version.ref = "navTest" }

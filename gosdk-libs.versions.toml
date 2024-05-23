@@ -1,0 +1,68 @@
+[versions]
+gosdk = "1.5.0-dev053.0e026719"
+
+accessControlClient = "1.1.0"
+
+[libraries]
+# NAV-145555 Shouldn't be JVM or our project should not be KMP. Problem with published artifact, to be fixed.
+accessControlClient = { module = "com.tomtom.ams:access-control-client-jvm", version.ref = "accessControlClient" }
+adas = { module = "com.tomtom.sdk.adas:adas", version.ref = "gosdk" }
+adasis = { module = "com.tomtom.sdk.adas.adasis:adasis", version.ref = "gosdk" }
+commonCore = { module = "com.tomtom.sdk.common:core", version.ref = "gosdk" }
+dataStore = { module = "com.tomtom.sdk.datamanagement:data-store", version.ref = "gosdk" }
+dataStoreMaintenanceEngine = { module = "com.tomtom.sdk.navigation:data-store-maintenance-engine-default", version.ref = "gosdk" }
+dataStoreSelectionEngine = { module = "com.tomtom.sdk.navigation:data-store-selection-engine-default", version.ref = "gosdk" }
+dataStoreUpdater = { module = "com.tomtom.sdk.datamanagement:data-store-updater", version.ref = "gosdk" }
+featureToggle = { module = "com.tomtom.sdk:feature-toggle", version.ref = "gosdk" }
+hazardsCommon = { module = "com.tomtom.sdk.hazards:hazards-common", version.ref = "gosdk" }
+hazardsOnline = { module = "com.tomtom.sdk.hazards:hazards-online", version.ref = "gosdk" }
+httpCore = { module = "com.tomtom.sdk.http:http-core", version.ref = "gosdk" }
+horizonEngineTileStore = { module = "com.tomtom.sdk.navigation:horizon-engine-tilestore", version.ref = "gosdk" }
+horizonEngineHybrid = { module = "com.tomtom.sdk.navigation:horizon-engine-hybrid", version.ref = "gosdk" }
+locationModel = { module = "com.tomtom.sdk.location:model", version.ref = "gosdk" }
+locationProviderAndroid = { module = "com.tomtom.sdk.location:provider-android", version.ref = "gosdk" }
+locationProviderApi = { module = "com.tomtom.sdk.location:provider-api", version.ref = "gosdk" }
+locationProviderMapMatched = { module = "com.tomtom.sdk.location:provider-map-matched", version.ref = "gosdk" }
+locationProviderSimulation = { module = "com.tomtom.sdk.location:provider-simulation", version.ref = "gosdk" }
+locationTracesLogger = { module = "com.tomtom.sdk.location:traces-logger", version.ref = "gosdk" }
+loggingConfiguration = { module = "com.tomtom.sdk.logging:configuration", version.ref = "gosdk" }
+mapDisplay = { module = "com.tomtom.sdk.maps:map-display", version.ref = "gosdk" }
+mapDisplayPremium = { module = "com.tomtom.sdk.maps:map-display-premium", version.ref = "gosdk" }
+mapDisplayPremiumDuo = { module = "com.tomtom.sdk.maps:map-display-premium-duo", version.ref = "gosdk" }
+mapsVisualizationNavigation = { module = "com.tomtom.sdk.maps.visualization:navigation", version.ref = "gosdk" }
+mapDataProvider = { module = "com.tomtom.sdk.maps:data-provider", version.ref = "gosdk" }
+mapStyleProviderOffline = { module = "com.tomtom.sdk.maps:style-provider-offline", version.ref = "gosdk" }
+mapDataProviderHybrid = { module = "com.tomtom.sdk.maps:hybrid-data-provider", version.ref = "gosdk" }
+mapDataProviderElastic = { module = "com.tomtom.sdk.maps:elastic-data-provider", version.ref = "gosdk" }
+mapMatchingEngineTileStore = { module = "com.tomtom.sdk.navigation:map-matching-engine-tilestore", version.ref = "gosdk" }
+ndsStore = { module = "com.tomtom.sdk.datamanagement:nds-store", version.ref = "gosdk" }
+ndsStoreUpdater = { module = "com.tomtom.sdk.datamanagement:nds-store-updater", version.ref = "gosdk" }
+nativeLibraryLoader = { module = "com.tomtom.sdk.common:native-library-loader-internal", version.ref = "gosdk" }
+reverseGeocoderOnline = { module = "com.tomtom.sdk.search:reverse-geocoder-online", version.ref = "gosdk" }
+reverseGeocoderHybrid = { module = "com.tomtom.sdk.search:reverse-geocoder-hybrid", version.ref = "gosdk" }
+routeModel = { module = "com.tomtom.sdk.routing:model", version.ref = "gosdk" }
+routePlanner = { module = "com.tomtom.sdk.routing:route-planner", version.ref = "gosdk" }
+routePlannerOnline = { module = "com.tomtom.sdk.routing:route-planner-online", version.ref = "gosdk" }
+routePlannerOffline = { module = "com.tomtom.sdk.routing:route-planner-offline", version.ref = "gosdk" }
+routePlannerHybrid = { module = "com.tomtom.sdk.routing:route-planner-hybrid", version.ref = "gosdk" }
+traffic = { module = "com.tomtom.sdk.traffic:traffic", version.ref = "gosdk" }
+routeReplanner = { module = "com.tomtom.sdk.navigation:route-replanner", version.ref = "gosdk" }
+routeProjectionEngineTileStore = { module = "com.tomtom.sdk.navigation:route-projection-engine-tilestore", version.ref = "gosdk" }
+routeReplannerOnline = { module = "com.tomtom.sdk.navigation:route-replanner-online", version.ref = "gosdk" }
+navigation = { module = "com.tomtom.sdk.navigation:navigation", version.ref = "gosdk" }
+navigationEngines = { module = "com.tomtom.sdk.navigation:navigation-engines", version.ref = "gosdk" }
+navigationHybrid = { module = "com.tomtom.sdk.navigation:navigation-hybrid", version.ref = "gosdk" }
+navigationOnline = { module = "com.tomtom.sdk.navigation:navigation-online", version.ref = "gosdk" }
+navigationResumeSnapshotRenewer = { module = "com.tomtom.sdk.navigation:resume-snapshot-renewer", version.ref = "gosdk" }
+navigationTileStore = { module = "com.tomtom.sdk.datamanagement:navigation-tile-store", version.ref = "gosdk" }
+safetyLocationsModel = {module = "com.tomtom.sdk.safetylocations:safetylocations-model", version.ref = "gosdk"}
+safetyLocationsOnline = { module = "com.tomtom.sdk.safetylocations:safetylocations-online", version.ref = "gosdk" }
+safetyLocationsOnlineDataAdaptor = { module = "com.tomtom.sdk.navigation:horizon-data-adapter-safety-locations-online", version.ref = "gosdk" }
+searchApi = { module = "com.tomtom.sdk.search:search", version.ref = "gosdk" }
+searchDynamicDataOnline = { module = "com.tomtom.sdk.search:dynamic-data-online", version.ref = "gosdk" }
+searchHybrid = { module = "com.tomtom.sdk.search:search-hybrid", version.ref = "gosdk" }
+searchOnline = { module = "com.tomtom.sdk.search:search-online", version.ref = "gosdk" }
+structuredSearchOffline = { module = "com.tomtom.sdk.search:structured-search-offline", version.ref = "gosdk" }
+personalDataApi = { module = "com.tomtom.sdk.personaldata:personal-data-api", version.ref = "gosdk" }
+personalDataOffline = { module = "com.tomtom.sdk.personaldata:personal-data-offline", version.ref = "gosdk" }
+
